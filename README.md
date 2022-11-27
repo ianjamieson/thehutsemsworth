@@ -1,37 +1,16 @@
-# The Huts Emsworth
-The Huts Emsworth website
+# Resources
 
-The eleventy_build.yml isn't working, so you'll currently need to manually deploy, `npm run prod`
+- Icons are from https://simpleicons.org/
+- Gatsby Static site generator
+# Commands
 
-Here is the eleventy build
+Develop:
+  ```shell
+  npm run develop
+  ```
+Deply:
+  ```shell
+  npm run deploy
+  ```
 
 
-```yml
-name: Eleventy Build
-
-on:
-  push:
-    branches:
-      - main
-
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-
-      - name: Setup Node
-        uses: actions/setup-node@v1
-        with:
-          node-version: '16.x'
-
-      - run: npm ci
-
-      - run: npm run prod
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          publish_dir: ./docs
-```

@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 body {
-    color: white;
+    @apply bg-blue-500 text-white;
     font-family: 'Lexend Deca', sans-serif;
 }

@@ -6,10 +6,21 @@ const path = require('path');
 module.exports = {
     siteMetadata: {
         title: 'The Huts Emsworth',
-        siteUrl: 'https://www.yourdomain.tld'
+        siteUrl: 'https://www.thehutsemsworth.co.uk'
     },
     plugins: [
         'gatsby-plugin-postcss', 'gatsby-plugin-image', 'gatsby-plugin-sitemap', 'gatsby-plugin-mdx', 'gatsby-plugin-sharp', 'gatsby-transformer-sharp',
+        {
+            resolve: 'gatsby-plugin-robots-txt',
+            options: {
+                host: 'https://www.thehutsemsworth.co.uk',
+                sitemap: 'https://www.thehutsemsworth.co.uk/sitemap-index.xml',
+                policy: [{
+                    userAgent: '*',
+                    allow: '/',
+                }]
+            }
+        },
         {
             resolve: 'gatsby-plugin-google-tagmanager',
             options: {

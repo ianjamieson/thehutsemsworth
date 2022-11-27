@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /captive
+Sitemap: https://www.thehutsemsworth.co.uk/sitemap-index.xml
+Host: https://www.thehutsemsworth.co.uk

@@ -47,9 +47,9 @@ export default function Layout({ children }) {
         <div>
             <NoScript />
             <main
-                className="flex items-center justify-center py-8 px-4"
+                className="flex items-center justify-center py-8 px-4 mx-auto max-w-full w-[512px]"
             >
-                <div className="space-y-12 w-full md:w-auto">
+                <div className="space-y-12 w-full">
                     <Header />
                     {children}
                     <Footer />

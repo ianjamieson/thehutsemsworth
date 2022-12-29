@@ -1,5 +1,4 @@
 import * as React from 'react';
-import Button from '../components/button';
 import Layout from '../components/layout';
 import { Seo } from '../components/seo';
 import ALink from '../components/alink';

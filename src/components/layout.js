@@ -1,10 +1,19 @@
 import React from 'react';
+import MenuButton from '@components/menu-button';
 import logo from '@static/img/logo.svg';
 
 const Header = () => {
     return (
-        <header>
+        <header className="border-b space-y-4">
             <a href="/"><img src={logo} alt="The Huts Emsworth" className="w-64 mx-auto" /></a>
+            <nav>
+                <ul className="flex justify-center">
+                    <li><MenuButton href="/">Home</MenuButton></li>
+                    <li><MenuButton href="/menu">Menu</MenuButton></li>
+                    <li><MenuButton href="/faqs">FAQs</MenuButton></li>
+                </ul>
+            </nav>
+
         </header>
     );
 };

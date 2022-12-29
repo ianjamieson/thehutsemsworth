@@ -1,5 +1,4 @@
 import React from 'react';
-import pdf from '@static/pdf/the-huts-emsworth-winter-menu-2022.pdf';
 
 export default function Intro() {
     return (
@@ -10,11 +9,6 @@ export default function Intro() {
                 <li>🧁 Coffee and Cake by the sea</li>
                 <li>🍴 Bacon Rolls - Paninis - Soup</li>
                 <li>📍 Thornham Marina Emsworth</li>
-                <li><a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href={ pdf }
-                >🍽️ View our menu</a></li>
             </ul>
         </div>
     );

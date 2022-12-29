@@ -10,19 +10,19 @@ export default function OpeningTimes() {
             </div>
             <div className="flex justify-between">
                 <div>Tuesday</div>
-                <div>9am - 4pm</div>
+                <div>10am - 3pm</div>
             </div>
             <div className="flex justify-between">
                 <div>Wednesday</div>
-                <div>9am - 4pm</div>
+                <div>10am - 3pm</div>
             </div>
             <div className="flex justify-between">
                 <div>Thursday</div>
-                <div>9am - 4pm</div>
+                <div>10am - 3pm</div>
             </div>
             <div className="flex justify-between">
                 <div>Friday</div>
-                <div>9am - 4pm</div>
+                <div>10am - 3pm</div>
             </div>
             <div className="flex justify-between">
                 <div>Saturday</div>

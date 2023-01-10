@@ -37,6 +37,13 @@ const FaqsPage = () => {
                         Yes, you can view our menu online <ALink href="/menu">here</ALink>
                     </p>
                 </Accordion>
+                <Accordion question="How can I find you on What Three Words?">
+                    <p>
+                        <ALink href="https://w3w.co/sentences.bits.herbs" target="_blank" rel="noreferrer">
+                        sentences.bits.herbs
+                        </ALink>
+                    </p>
+                </Accordion>
             </div>
         </Layout>
     );

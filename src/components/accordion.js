@@ -1,12 +1,23 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 
 export default function Accordion({ children, ...props}) {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const id = props.question.replace(/\s/g, '-').toLowerCase();
+    useEffect(() => {
+        if (window.location.hash === `#${id}`) {
+            setIsOpen(true);
+        } else {
+            setIsOpen(false);
+        }
+    }, []);
     return (
-        <details className="group">
+        <details className="group" open={isOpen}>
             <summary
                 className="p-4 flex cursor-pointer items-center justify-between space-x-4 list-none"
             >
                 <div>
+                    <a name={id} />
                     {props.question}
                 </div>
                 <div

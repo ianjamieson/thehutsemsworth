@@ -3,7 +3,10 @@ import React, {useState, useEffect} from 'react';
 export default function Accordion({ children, ...props}) {
     const [isOpen, setIsOpen] = useState(false);
 
-    const id = props.question.replace(/\s/g, '-').toLowerCase();
+    const id = props.question
+        .replace(/\s/g, '-')
+        .replace(/[^a-zA-Z0-9-]/g, '')
+        .toLowerCase();
     useEffect(() => {
         if (window.location.hash === `#${id}`) {
             setIsOpen(true);
@@ -11,8 +14,14 @@ export default function Accordion({ children, ...props}) {
             setIsOpen(false);
         }
     }, []);
+    const handleClick = (event) => {
+        const isOpen = event.currentTarget.open;
+        if (!isOpen) {
+            window.history.pushState({}, '', `#${id}`);
+        }
+    };
     return (
-        <details className="group" open={isOpen}>
+        <details className="group" open={isOpen} onClick={handleClick}>
             <summary
                 className="p-4 flex cursor-pointer items-center justify-between space-x-4 list-none"
             >

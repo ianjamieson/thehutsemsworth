@@ -9,7 +9,7 @@ const FaqsPage = () => {
     return (
         <Layout>
             <div className="divide-y divide-gray-50">
-                <Accordion question="How do you find The Huts when you get to Thornham Marina.">
+                <Accordion question="How do you find The Huts when you get to Thornham Marina?">
                     <p>
                         Once you have arrived at Thornham Marina car park. You can follow the directional
                         arrow on the image below to find The Huts.
@@ -24,6 +24,15 @@ const FaqsPage = () => {
                             <img src={mapToTheHuts} alt="Map to The Huts from Thornham Marina Car Park" />
                         </a>
                     </p>
+                </Accordion>
+                <Accordion question="Are there any short walks near The Huts?">
+                    <p>
+                        Yes, you can check out our <ALink href="https://www.alltrails.com/en-gb/explore/map/the-huts-circular-b096577" target="_blank" rel="noreferrer">AllTrails map of The Huts Circular</ALink>
+                    </p>
+                    <p>
+                        It is a short, flat gravel track walk with great view
+                    </p>
+
                 </Accordion>
                 <Accordion question="Do you have toilets?">
                     <p>

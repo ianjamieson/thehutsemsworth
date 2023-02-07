@@ -9,6 +9,7 @@ const Header = () => {
             <nav>
                 <ul className="flex justify-center">
                     <li><MenuButton href="/">Home</MenuButton></li>
+                    <li><MenuButton href="/gift-cards">Gift Cards</MenuButton></li>
                     <li><MenuButton href="/menu">Menu</MenuButton></li>
                     <li><MenuButton href="/faqs">FAQs</MenuButton></li>
                 </ul>

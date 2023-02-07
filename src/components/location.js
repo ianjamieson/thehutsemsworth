@@ -1,4 +1,5 @@
 import React from 'react';
+import ButtonGoogleMaps from './button-google-maps';
 
 export default function Location() {
     return (
@@ -10,12 +11,10 @@ export default function Location() {
                 PO10 8DD
             </p>
             <p>
-                <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[#7db3c6]"
-                    href="https://goo.gl/maps/fV5p13YbYhYgPta39"
-                >Find us on Google Maps &raquo;</a></p>
+                <ButtonGoogleMaps>
+                    Find us on Google Maps &raquo;
+                </ButtonGoogleMaps>
+            </p>
         </div>
     );
 }

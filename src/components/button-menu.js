@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import React from 'react';
 
-export default function MenuButton({ children, ...props}) {
+export default function  ButtonMenu({ children, ...props}) {
     const path = typeof window !== 'undefined' ? window.location.pathname : 'invalid';
 
     var aClasses = classNames(

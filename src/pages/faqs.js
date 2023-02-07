@@ -4,6 +4,7 @@ import { Seo } from '../components/seo';
 import ALink from '../components/alink';
 import mapToTheHuts from '@static/img/maps/thornham-marina-car-park-to-the-huts.jpg';
 import Accordion from '@components/accordion';
+import ButtonGoogleMaps from '../components/button-google-maps';
 
 const FaqsPage = () => {
     return (
@@ -33,6 +34,21 @@ const FaqsPage = () => {
                         It is a short, flat gravel track walk with great view
                     </p>
 
+                </Accordion>
+                <Accordion question="How can I redeem my gift card?">
+                    <p>
+                        If someone has generously purchased you a gift card, or you have purcahsed one yourself.
+                        Then all you need to do to redeem it is visit us at <ButtonGoogleMaps>Thornham Marina</ButtonGoogleMaps>
+                        and show the gift card that you have either printed or have in your email.
+                    </p>
+                    <p>
+                        You do not have to order the exact amount of the gift card, if your order is less than the value of the gift card
+                        then you will keep the remaining balance. However, if your order value is higher than your gift card balance, then
+                        you will just need to pay the difference.
+                    </p>
+                    <p>
+                        By default, all gift cards purchased have a one year validity.
+                    </p>
                 </Accordion>
                 <Accordion question="Do you have toilets?">
                     <p>

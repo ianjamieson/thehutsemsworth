@@ -1,5 +1,5 @@
 import React from 'react';
-import MenuButton from '@components/menu-button';
+import ButtonMenu from '@components/button-menu';
 import logo from '@static/img/logo.svg';
 
 const Header = () => {
@@ -8,10 +8,10 @@ const Header = () => {
             <a href="/"><img src={logo} alt="The Huts Emsworth" className="w-64 mx-auto" /></a>
             <nav>
                 <ul className="flex justify-center">
-                    <li><MenuButton href="/">Home</MenuButton></li>
-                    <li><MenuButton href="/gift-cards">Gift Cards</MenuButton></li>
-                    <li><MenuButton href="/menu">Menu</MenuButton></li>
-                    <li><MenuButton href="/faqs">FAQs</MenuButton></li>
+                    <li><ButtonMenu href="/">Home</ButtonMenu></li>
+                    <li><ButtonMenu href="/gift-cards">Gift Cards</ButtonMenu></li>
+                    <li><ButtonMenu href="/menu">Menu</ButtonMenu></li>
+                    <li><ButtonMenu href="/faqs">FAQs</ButtonMenu></li>
                 </ul>
             </nav>
 

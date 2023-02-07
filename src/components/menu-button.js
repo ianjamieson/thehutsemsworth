@@ -2,7 +2,7 @@ import classNames from 'classnames';
 import React from 'react';
 
 export default function MenuButton({ children, ...props}) {
-    const path = window.location.pathname;
+    const path = typeof window !== 'undefined' ? window.location.pathname : 'invalid';
 
     var aClasses = classNames(
         'text-center block hover:bg-blue-400 p-3',

@@ -37,7 +37,7 @@ const FaqsPage = () => {
                 </Accordion>
                 <Accordion question="How can I redeem my gift card?">
                     <p>
-                        If someone has generously purchased you a gift card, or you have purcahsed one yourself.
+                        If someone has generously purchased you a gift card, or you have purchased one yourself.
                         Then all you need to do to redeem it is visit us at <ButtonGoogleMaps>Thornham Marina</ButtonGoogleMaps>
                         and show the gift card that you have either printed or have in your email.
                     </p>

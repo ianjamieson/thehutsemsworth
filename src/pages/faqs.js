@@ -5,11 +5,50 @@ import ALink from '../components/alink';
 import mapToTheHuts from '@static/img/maps/thornham-marina-car-park-to-the-huts.jpg';
 import Accordion from '@components/accordion';
 import ButtonGoogleMaps from '../components/button-google-maps';
+import List from '../components/list';
 
 const FaqsPage = () => {
     return (
         <Layout>
             <div className="divide-y divide-gray-50">
+                <Accordion question="Can you handle dietry requirements?">
+                    <p>
+                        As we have such a small space in the trailer we cannot cater for all dietry requirements.
+                        However, we do have the following options:
+                    </p>
+                    <p>
+                        <strong className="font-bold underline">Vegetarian</strong><br/>
+                        We have various vegetarian options on the menu, these are marked accordingly. Please ask
+                        a member of staff if you have any further questions.
+                    </p>
+                    <p>
+                        The pesto in the Sunblushed Tomato & Feta Panini is also vegetarian as it does not
+                        contain parmesan.
+                    </p>
+                    <p>
+                        <strong className="font-bold underline">Dairy free</strong><br/>
+                        We offer a range of different milks to cater for those of you who do not consume dairy:
+                    </p>
+                    <List>
+                        <li>Oat Milk</li>
+                        <li>Soya Milk</li>
+                        <li>Coconut Milk</li>
+                        <li>Almond Milk</li>
+                    </List>
+                    <p>
+                        <strong className="font-bold underline">Gluten free</strong><br/>
+                        While we sometimes have gluten free bread, we cannot guarantee this. So please ask
+                        a member of staff when you are making your order if we have this option available.
+                    </p>
+                    <p>
+                        <strong className="font-bold underline">Vegan</strong><br/>
+                        We currently cannot cater for a vegan diet
+                    </p>
+                    <p>
+                        <strong className="font-bold underline">Nut free</strong><br/>
+                        We currently cannot ensure any of our products are nut free
+                    </p>
+                </Accordion>
                 <Accordion question="How do you find The Huts when you get to Thornham Marina?">
                     <p>
                         Once you have arrived at Thornham Marina car park. You can follow the directional

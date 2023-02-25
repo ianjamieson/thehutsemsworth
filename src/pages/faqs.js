@@ -6,11 +6,13 @@ import mapToTheHuts from '@static/img/maps/thornham-marina-car-park-to-the-huts.
 import Accordion from '@components/accordion';
 import ButtonGoogleMaps from '../components/button-google-maps';
 import List from '../components/list';
+import Heading from '../components/heading';
 
 const FaqsPage = () => {
     return (
         <Layout>
-            <div className="divide-y divide-gray-50">
+            <Heading h="1">FAQs</Heading>
+            <div className="divide-y divide-blue-50">
                 <Accordion question="Can you handle dietry requirements?">
                     <p>
                         As we have such a small space in the trailer we cannot cater for all dietry requirements.

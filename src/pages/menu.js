@@ -4,10 +4,12 @@ import Layout from '../components/layout';
 import { Seo } from '../components/seo';
 import ALink from '../components/alink';
 import pdf from '@static/pdf/the-huts-emsworth-winter-menu-2022.pdf';
+import Heading from '../components/heading';
 
 const MenuPage = () => {
     return (
         <Layout>
+            <Heading h="1">Menu</Heading>
             <Button
                 target="_blank"
                 rel="noopener noreferrer"

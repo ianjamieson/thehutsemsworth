@@ -1,9 +1,10 @@
 import React from 'react';
+import Heading from './heading';
 
 export default function OpeningTimes() {
     return (
         <div className="space-y-3 text-center px-10 py-6 border rounded-sm md:min-w-[340px] mx-5">
-            <h2 className="text-xl">Opening times</h2>
+            <Heading h="2">Opening times</Heading>
             <div className="flex justify-between">
                 <div>Monday</div>
                 <div>Closed</div>

@@ -40,7 +40,7 @@ const Header = () => {
                 </nav>
             </div>
             <div>
-                <img src={hero} className="w-full h-[300px] object-cover" />
+                <img src={hero} className="w-full h-[300px] lg:h-[400px] object-cover" />
             </div>
         </header>
     );

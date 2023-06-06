@@ -76,6 +76,12 @@ const FaqsPage = () => {
                     </p>
 
                 </Accordion>
+                <Accordion question="Do you take bookings?">
+                    <p>
+                        Unfortunately, at the moment we cannot accept bookings for any of the huts. It is first come first served.
+                    </p>
+
+                </Accordion>
                 <Accordion question="How can I redeem my gift card?">
                     <p>
                         If someone has generously purchased you a gift card, or you have purchased one yourself.

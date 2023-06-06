@@ -7,7 +7,7 @@ export default function OpeningTimes() {
             <Heading h="2">Opening times</Heading>
             <div className="flex justify-between">
                 <div>Monday</div>
-                <div>Closed</div>
+                <div>10am - 3pm</div>
             </div>
             <div className="flex justify-between">
                 <div>Tuesday</div>

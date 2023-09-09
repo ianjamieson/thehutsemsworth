@@ -120,7 +120,7 @@ const FaqsPage = () => {
                     <p>
                             Yes you can, just make sure you pull up on the gravel slipway. You can see this point
                             on the map
-                            <ALink href="https://goo.gl/maps/RCBCxvgkxwH6jNbMA" target="_blank" rel="noreferrer">
+                            <ALink href="https://www.google.co.uk/maps/place/50%C2%B050'09.7%22N+0%C2%B054'58.7%22W/@50.8360361,-0.9162245,165m/data=!3m1!1e3!4m4!3m3!8m2!3d50.8360278!4d-0.9163056" target="_blank" rel="noreferrer">
                             here
                             </ALink>
                     </p>

@@ -116,6 +116,18 @@ const FaqsPage = () => {
                         </ALink>
                     </p>
                 </Accordion>
+                <Accordion question="Can I visit The Huts on my paddleboard?">
+                    <p>
+                            Yes you can, just make sure you pull up on the gravel slipway. You can see this point
+                            on the map
+                            <ALink href="https://goo.gl/maps/RCBCxvgkxwH6jNbMA" target="_blank" rel="noreferrer">
+                            here
+                            </ALink>
+                    </p>
+                    <p>
+                                Please avoid landing on the pontoons as these are private
+                    </p>
+                </Accordion>
             </div>
         </Layout>
     );
